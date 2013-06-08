@@ -1,0 +1,11 @@
+<labels type="l6009">
+    <content family="helvetica" size="6" token="true">
+        <Image x="1.8" y="1.5" w="0" h="9">./examples/placeholder.gif</Image>
+
+        <Text x="13.3" y="4.3" size="10" style="B">Justo Fermentum</Text>
+        <Text x="13.3" y="8.4">+41 98 765 43 21</Text>
+        <Text x="13.3" y="10.2">justo.fermentum@example.com</Text>
+
+        <Code x="c" y="12" w="0" h="8" family="arial" thickness="24">[data]</Code>
+    </content>
+</labels>

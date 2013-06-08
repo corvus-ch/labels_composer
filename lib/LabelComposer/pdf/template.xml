@@ -1,0 +1,20 @@
+<templates>
+    <labels>
+        <label type="l6009" layout="12x4 457x212" />
+        <label type="l6011" layout="9x3 635x296" />
+    </labels>
+    <layouts>
+        <layout id="12x4 457x212" cols="4" rows="12">
+            <page orientation="P" unit="mm" format="A4" />
+            <margin top="21.48" left="9.753" />
+            <cell w="45.72" h="21.17" />
+            <spacing h="2.539" v="0" />
+        </layout>
+        <layout id="9x3 635x296" cols="3" rows="9">
+            <page orientation="P" unit="mm" format="A4" />
+            <margin top="15.1" left="7.258" />
+            <cell w="63.5" h="29.63" />
+            <spacing h="2.54" v="0" />
+        </layout>
+    </layouts>
+</templates>

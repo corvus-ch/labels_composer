@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/console": "2.1.*",
+        "rev42/tfpdf": "v1.0"
+    }
+}

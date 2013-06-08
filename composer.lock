@@ -1,0 +1,92 @@
+{
+    "hash": "af600844139fd1e942aa4f8f9da9fcc8",
+    "packages": [
+        {
+            "name": "rev42/tfpdf",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rev42/tfpdf",
+                "reference": "v1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/rev42/tfpdf/zipball/v1.0",
+                "reference": "v1.0",
+                "shasum": ""
+            },
+            "time": "2012-02-23 23:26:11",
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "tFPDF": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Ian Back",
+                    "email": "ianb@bpm1.com"
+                }
+            ],
+            "description": "tFPDF",
+            "homepage": "http://fpdf.org/fr/script/script92.php",
+            "keywords": [
+                "pdf"
+            ]
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.1.7",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console",
+                "reference": "v2.1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.1.7",
+                "reference": "v2.1.7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "2013-01-17 15:20:05",
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ]
+}

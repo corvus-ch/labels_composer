@@ -1,0 +1,8 @@
+<labels type="l6011">
+    <content family="helvetica" size="8">
+        <Image x="4" y="11.5" w="16">./examples/placeholder.gif</Image>
+        <Text x="4" y="9" size="19" style="B">Justo Fermentum</Text>
+        <Text x="23" y="23.8">+41 98 765 43 21</Text>
+        <Text x="23" y="26.8">justo.fermentum@example.com</Text>
+    </content>
+</labels>

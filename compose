@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+$loader = require './vendor/autoload.php';
+$loader->add('', __DIR__ . '/lib');
+$loader->add('', __DIR__ . '/lib/barcodegen/class');
+
+use LabelComposer\Console\RandomDataCommand;
+use LabelComposer\Console\SingleCommand;
+use LabelComposer\Console\XmlDataCommand;
+
+use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
+
+$console = new Application();
+$console->add(new SingleCommand());
+$console->add(new XmlDataCommand());
+$console->add(new RandomDataCommand());
+$console->run();
